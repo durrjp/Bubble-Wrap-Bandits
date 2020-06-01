@@ -1,0 +1,13 @@
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\bin\Debug\netcoreapp3.1\plan-your-heist.exe
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\bin\Debug\netcoreapp3.1\plan-your-heist.deps.json
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\bin\Debug\netcoreapp3.1\plan-your-heist.runtimeconfig.json
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\bin\Debug\netcoreapp3.1\plan-your-heist.runtimeconfig.dev.json
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\bin\Debug\netcoreapp3.1\plan-your-heist.dll
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\bin\Debug\netcoreapp3.1\plan-your-heist.pdb
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\obj\Debug\netcoreapp3.1\plan-your-heist.csprojAssemblyReference.cache
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\obj\Debug\netcoreapp3.1\plan-your-heist.AssemblyInfoInputs.cache
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\obj\Debug\netcoreapp3.1\plan-your-heist.AssemblyInfo.cs
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\obj\Debug\netcoreapp3.1\plan-your-heist.csproj.CoreCompileInputs.cache
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\obj\Debug\netcoreapp3.1\plan-your-heist.dll
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\obj\Debug\netcoreapp3.1\plan-your-heist.pdb
+C:\Users\Crystal Elsey\workspace\CSharp\Heist\Bubble-Wrap-Bandits\obj\Debug\netcoreapp3.1\plan-your-heist.genruntimeconfig.cache

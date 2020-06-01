@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brant\\workspace\\group-projects\\bubble-wrap-bandits\\plan-your-heist.csproj": {}
+    "C:\\Users\\Crystal Elsey\\workspace\\CSharp\\Heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brant\\workspace\\group-projects\\bubble-wrap-bandits\\plan-your-heist.csproj": {
+    "C:\\Users\\Crystal Elsey\\workspace\\CSharp\\Heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brant\\workspace\\group-projects\\bubble-wrap-bandits\\plan-your-heist.csproj",
+        "projectUniqueName": "C:\\Users\\Crystal Elsey\\workspace\\CSharp\\Heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj",
         "projectName": "plan-your-heist",
-        "projectPath": "C:\\Users\\brant\\workspace\\group-projects\\bubble-wrap-bandits\\plan-your-heist.csproj",
-        "packagesPath": "C:\\Users\\brant\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brant\\workspace\\group-projects\\bubble-wrap-bandits\\obj\\",
+        "projectPath": "C:\\Users\\Crystal Elsey\\workspace\\CSharp\\Heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj",
+        "packagesPath": "C:\\Users\\Crystal Elsey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Crystal Elsey\\workspace\\CSharp\\Heist\\Bubble-Wrap-Bandits\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Crystal Elsey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,12 +47,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

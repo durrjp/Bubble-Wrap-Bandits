@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace plan_your_heist
@@ -24,6 +26,17 @@ namespace plan_your_heist
         public Team(string TeamName)
         {
             _teamName = TeamName;
+        }
+
+        // public List<plan_your_heist.TeamMember> TeamReport()
+        // {
+        //     return _teamList;
+        // }
+
+        public int AddTeamSkillLevel()
+        {
+            List<int> TeamSkillLevel = _teamList.Select(ass => ass.SkillLevel).ToList();
+            return TeamSkillLevel.Sum();
         }
     }
 }
