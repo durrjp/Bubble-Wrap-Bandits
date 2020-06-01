@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Jon\\.nuget\\packages\\": {}
+    "C:\\Users\\brant\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jon\\workspace\\csharp\\exercises\\plan-your-heist\\plan-your-heist.csproj",
+      "projectUniqueName": "C:\\Users\\brant\\workspace\\group-projects\\bubble-wrap-bandits\\plan-your-heist.csproj",
       "projectName": "plan-your-heist",
-      "projectPath": "C:\\Users\\Jon\\workspace\\csharp\\exercises\\plan-your-heist\\plan-your-heist.csproj",
-      "packagesPath": "C:\\Users\\Jon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jon\\workspace\\csharp\\exercises\\plan-your-heist\\obj\\",
+      "projectPath": "C:\\Users\\brant\\workspace\\group-projects\\bubble-wrap-bandits\\plan-your-heist.csproj",
+      "packagesPath": "C:\\Users\\brant\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brant\\workspace\\group-projects\\bubble-wrap-bandits\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brant\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,6 +53,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
