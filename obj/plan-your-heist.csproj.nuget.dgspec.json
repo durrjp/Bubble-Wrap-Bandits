@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Crystal Elsey\\workspace\\CSharp\\Heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj": {}
+    "C:\\Users\\16154\\workspace\\csharp\\heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Crystal Elsey\\workspace\\CSharp\\Heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj": {
+    "C:\\Users\\16154\\workspace\\csharp\\heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Crystal Elsey\\workspace\\CSharp\\Heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj",
+        "projectUniqueName": "C:\\Users\\16154\\workspace\\csharp\\heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj",
         "projectName": "plan-your-heist",
-        "projectPath": "C:\\Users\\Crystal Elsey\\workspace\\CSharp\\Heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj",
-        "packagesPath": "C:\\Users\\Crystal Elsey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Crystal Elsey\\workspace\\CSharp\\Heist\\Bubble-Wrap-Bandits\\obj\\",
+        "projectPath": "C:\\Users\\16154\\workspace\\csharp\\heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj",
+        "packagesPath": "C:\\Users\\16154\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16154\\workspace\\csharp\\heist\\Bubble-Wrap-Bandits\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Crystal Elsey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\16154\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
