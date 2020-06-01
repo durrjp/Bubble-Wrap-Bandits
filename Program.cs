@@ -27,15 +27,18 @@ namespace plan_your_heist
                     string CourageFactor = Console.ReadLine();
                     double CourageFactorDouble = double.Parse(CourageFactor);
 
-                    TeamMember memberOne = new TeamMember(Name, SkillLevelInt, CourageFactorDouble);
-                    Console.WriteLine($"Associate: {memberOne.Name}, Skill Level: {memberOne.SkillLevel}, Courage Factor: {memberOne.CourageFactor}");
+                    TeamMember member = new TeamMember(Name, SkillLevelInt, CourageFactorDouble);
+                    UserTeamName.AddTeamMember(member);
+
+                    Console.WriteLine($"Associate: {member.Name}, Skill Level: {member.SkillLevel}, Courage Factor: {member.CourageFactor}");
                 }
                 else
                 {
                     break;
                 }
             }
-            Console.WriteLine($"{UserTeamName.}");
+            int TeamCount = UserTeamName.GetTeamCount();
+            Console.WriteLine($"{TeamCount}");
 
         }
 

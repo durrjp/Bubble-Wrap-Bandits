@@ -15,6 +15,11 @@ namespace plan_your_heist
             _teamList.Add(accomplice);
         }
 
+        public int GetTeamCount()
+        {
+            return _teamList.Count;
+        }
+
         // Constructor Method
         public Team(string TeamName)
         {
