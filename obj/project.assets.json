@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\16154\\.nuget\\packages\\": {}
+    "C:\\Users\\durrj\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\16154\\workspace\\csharp\\heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj",
+      "projectUniqueName": "C:\\Users\\durrj\\workspace\\Bubble-Wrap-Bandits\\Bubble-Wrap-Bandits\\plan-your-heist.csproj",
       "projectName": "plan-your-heist",
-      "projectPath": "C:\\Users\\16154\\workspace\\csharp\\heist\\Bubble-Wrap-Bandits\\plan-your-heist.csproj",
-      "packagesPath": "C:\\Users\\16154\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\16154\\workspace\\csharp\\heist\\Bubble-Wrap-Bandits\\obj\\",
+      "projectPath": "C:\\Users\\durrj\\workspace\\Bubble-Wrap-Bandits\\Bubble-Wrap-Bandits\\plan-your-heist.csproj",
+      "packagesPath": "C:\\Users\\durrj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\durrj\\workspace\\Bubble-Wrap-Bandits\\Bubble-Wrap-Bandits\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\16154\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\durrj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
