@@ -9,15 +9,15 @@ namespace plan_your_heist
         {
             Console.WriteLine("Plan Your Heist!");
 
+            Console.WriteLine("Enter the Bank's Difficulty Level(1-100):");
+            string BankDifficultyString = Console.ReadLine();
+            int BankDifficulty = Int32.Parse(BankDifficultyString);
+
             Console.WriteLine("Enter Team Name:");
             string TeamName = Console.ReadLine();
             Team UserTeamName = new Team(TeamName);
+            
 
-            Random LuckLevelForThisParticularHeist = new Random();
-            int ActualLevelOfLuckForThisParticularHeist = LuckLevelForThisParticularHeist.Next(-10, 11);
-            int BankDifficulty = 100;
-
-            int FinalResultOfTheBankDifficultyAndLuckLevel = BankDifficulty + ActualLevelOfLuckForThisParticularHeist;
 
             while (true)
             {
@@ -51,23 +51,46 @@ namespace plan_your_heist
             // {
             //     member.TeamMemberReport();
             // }
-
-            int TotalTeamSkillz = UserTeamName.AddTeamSkillLevel();
-
-            Console.WriteLine($"This team's skillzzzz {TotalTeamSkillz}");
-            Console.WriteLine("");
-            Console.WriteLine($"This bank's difficulty level {FinalResultOfTheBankDifficultyAndLuckLevel}");
-            Console.WriteLine("");
-
-            if (TotalTeamSkillz > FinalResultOfTheBankDifficultyAndLuckLevel)
+            Console.WriteLine("How many trial runs?");
+            string TrialsToRunString = Console.ReadLine();
+            int TrialsToRun = Int32.Parse(TrialsToRunString);
+            int TrialsRun = 0;
+            Console.WriteLine("Robbery Report:");
+            int Successes = 0;
+            int Failures = 0;
+            while(TrialsToRun > TrialsRun)
             {
-                Console.WriteLine("Suck it, bank! We took your moneeeyyyyysss.");
+                Random LuckLevelForThisParticularHeist = new Random();
+                int ActualLevelOfLuckForThisParticularHeist = LuckLevelForThisParticularHeist.Next(-10, 11);
+
+                int FinalResultOfTheBankDifficultyAndLuckLevel = BankDifficulty + ActualLevelOfLuckForThisParticularHeist;
+                
+                int TotalTeamSkillz = UserTeamName.AddTeamSkillLevel();
+
+                Console.WriteLine($"This team's skillzzzz {TotalTeamSkillz}");
+                Console.WriteLine("");
+                Console.WriteLine($"This bank's difficulty level {FinalResultOfTheBankDifficultyAndLuckLevel}");
+                Console.WriteLine("");
+
+                if (TotalTeamSkillz > FinalResultOfTheBankDifficultyAndLuckLevel)
+                {
+                    Console.WriteLine("Suck it, bank! We took your moneeeyyyyysss.");
+                    Console.WriteLine("------------");
+                    Successes++;
+                }
+                else
+                {
+                    Console.WriteLine("Cuff us all! Except Bonny-K. She had nothing to do with this.");
+                    Console.WriteLine("------------");
+                    Failures++;
+                }
+                TrialsToRun--;
             }
-            else
-            {
-                Console.WriteLine("Cuff us all! Except Bonny-K. She had nothing to do with this.");
-            }
+            Console.WriteLine("------------");
+            Console.WriteLine($"Successes: {Successes}");
+            Console.WriteLine($"Successes rate: {((Successes/TrialsToRun)*100)}%");
+            Console.WriteLine($"Failers: {Failures}");
+            Console.WriteLine($"Failers rate: {((Failures/TrialsToRun)*100)}%");
         }
-
     }
 }
