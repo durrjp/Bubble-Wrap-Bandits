@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace plan_your_heist
 {
@@ -12,7 +13,11 @@ namespace plan_your_heist
             string TeamName = Console.ReadLine();
             Team UserTeamName = new Team(TeamName);
 
+            Random LuckLevelForThisParticularHeist = new Random();
+            int ActualLevelOfLuckForThisParticularHeist = LuckLevelForThisParticularHeist.Next(-10, 11);
             int BankDifficulty = 100;
+
+            int FinalResultOfTheBankDifficultyAndLuckLevel = BankDifficulty + ActualLevelOfLuckForThisParticularHeist;
 
             while (true)
             {
@@ -49,7 +54,12 @@ namespace plan_your_heist
 
             int TotalTeamSkillz = UserTeamName.AddTeamSkillLevel();
 
-            if (TotalTeamSkillz > BankDifficulty)
+            Console.WriteLine($"This team's skillzzzz {TotalTeamSkillz}");
+            Console.WriteLine("");
+            Console.WriteLine($"This bank's difficulty level {FinalResultOfTheBankDifficultyAndLuckLevel}");
+            Console.WriteLine("");
+
+            if (TotalTeamSkillz > FinalResultOfTheBankDifficultyAndLuckLevel)
             {
                 Console.WriteLine("Suck it, bank! We took your moneeeyyyyysss.");
             }
