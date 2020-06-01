@@ -1,3 +1,5 @@
+using System;
+
 namespace plan_your_heist
 {
     class TeamMember
@@ -12,6 +14,14 @@ namespace plan_your_heist
             SkillLevel = skillLevel;
             CourageFactor = courage;
         }
+
+        // public void TeamMemberReport()
+        // {
+        //     Console.WriteLine($"---------------------------------");
+        //     Console.WriteLine($"Accomplice Name: {this.Name}");
+        //     Console.WriteLine($"Skill Level: {this.SkillLevel}");
+        //     Console.WriteLine($"Courage Factor: {this.CourageFactor}");
+        // }
     }
 
 }
