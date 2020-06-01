@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9DAI0DRRXrusVesRoGsH6esoBlz0VIZdOMAwdjkZt0foTFtieHLzTo/bMIdhOdcqlgbpWS8Nc4Los2jjjbNcZw==",
+  "dgSpecHash": "QXwp5vkQQNi7IJdmlKDX0yfah1p/o0SJncHp9CYTz3FWToAXsXqXBkSOHILBWI0VpewxXjexres6rp62pidgLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jon\\workspace\\csharp\\exercises\\plan-your-heist\\plan-your-heist.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\brant\\workspace\\group-projects\\bubble-wrap-bandits\\plan-your-heist.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brant\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
